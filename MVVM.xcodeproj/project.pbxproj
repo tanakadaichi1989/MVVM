@@ -11,6 +11,16 @@
 		A1B3CAE2282EB72400C3D3AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAE1282EB72400C3D3AE /* ContentView.swift */; };
 		A1B3CAE4282EB72500C3D3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B3CAE3282EB72500C3D3AE /* Assets.xcassets */; };
 		A1B3CAE7282EB72500C3D3AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B3CAE6282EB72500C3D3AE /* Preview Assets.xcassets */; };
+		A1B3CAEE282EB78400C3D3AE /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAED282EB78400C3D3AE /* ProductViewModel.swift */; };
+		A1B3CAF0282EB79A00C3D3AE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAEF282EB79A00C3D3AE /* Product.swift */; };
+		A1B3CAF2282EBA7900C3D3AE /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAF1282EBA7900C3D3AE /* ProductRowView.swift */; };
+		A1B3CAF4282EBCB300C3D3AE /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAF3282EBCB300C3D3AE /* ProductsView.swift */; };
+		A1B3CAF7282F5F7B00C3D3AE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A1B3CAF6282F5F7B00C3D3AE /* Realm */; };
+		A1B3CAF9282F5F7B00C3D3AE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A1B3CAF8282F5F7B00C3D3AE /* RealmSwift */; };
+		A1B3CAFB282F5F9900C3D3AE /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAFA282F5F9900C3D3AE /* ProductService.swift */; };
+		A1B3CAFD282F7D0900C3D3AE /* RegisterProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAFC282F7D0900C3D3AE /* RegisterProductView.swift */; };
+		A1B3CAFF282F836500C3D3AE /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CAFE282F836500C3D3AE /* CustomInputField.swift */; };
+		A1B3CB01282F85BD00C3D3AE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3CB00282F85BD00C3D3AE /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,14 @@
 		A1B3CAE1282EB72400C3D3AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B3CAE3282EB72500C3D3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B3CAE6282EB72500C3D3AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B3CAED282EB78400C3D3AE /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		A1B3CAEF282EB79A00C3D3AE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A1B3CAF1282EBA7900C3D3AE /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
+		A1B3CAF3282EBCB300C3D3AE /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		A1B3CAFA282F5F9900C3D3AE /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		A1B3CAFC282F7D0900C3D3AE /* RegisterProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProductView.swift; sourceTree = "<group>"; };
+		A1B3CAFE282F836500C3D3AE /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		A1B3CB00282F85BD00C3D3AE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B3CAF9282F5F7B00C3D3AE /* RealmSwift in Frameworks */,
+				A1B3CAF7282F5F7B00C3D3AE /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				A1B3CADF282EB72400C3D3AE /* MVVMApp.swift */,
+				A1B3CAED282EB78400C3D3AE /* ProductViewModel.swift */,
+				A1B3CAEF282EB79A00C3D3AE /* Product.swift */,
+				A1B3CAFA282F5F9900C3D3AE /* ProductService.swift */,
 				A1B3CAE1282EB72400C3D3AE /* ContentView.swift */,
+				A1B3CAF3282EBCB300C3D3AE /* ProductsView.swift */,
+				A1B3CAF1282EBA7900C3D3AE /* ProductRowView.swift */,
+				A1B3CAFC282F7D0900C3D3AE /* RegisterProductView.swift */,
+				A1B3CB00282F85BD00C3D3AE /* HeaderView.swift */,
+				A1B3CAFE282F836500C3D3AE /* CustomInputField.swift */,
 				A1B3CAE3282EB72500C3D3AE /* Assets.xcassets */,
 				A1B3CAE5282EB72500C3D3AE /* Preview Content */,
 			);
@@ -83,6 +111,10 @@
 			dependencies = (
 			);
 			name = MVVM;
+			packageProductDependencies = (
+				A1B3CAF6282F5F7B00C3D3AE /* Realm */,
+				A1B3CAF8282F5F7B00C3D3AE /* RealmSwift */,
+			);
 			productName = MVVM;
 			productReference = A1B3CADC282EB72400C3D3AE /* MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = A1B3CAD3282EB72400C3D3AE;
+			packageReferences = (
+				A1B3CAF5282F5F7B00C3D3AE /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = A1B3CADD282EB72400C3D3AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B3CAF2282EBA7900C3D3AE /* ProductRowView.swift in Sources */,
 				A1B3CAE2282EB72400C3D3AE /* ContentView.swift in Sources */,
+				A1B3CAFD282F7D0900C3D3AE /* RegisterProductView.swift in Sources */,
+				A1B3CAF4282EBCB300C3D3AE /* ProductsView.swift in Sources */,
+				A1B3CAF0282EB79A00C3D3AE /* Product.swift in Sources */,
+				A1B3CB01282F85BD00C3D3AE /* HeaderView.swift in Sources */,
+				A1B3CAEE282EB78400C3D3AE /* ProductViewModel.swift in Sources */,
+				A1B3CAFB282F5F9900C3D3AE /* ProductService.swift in Sources */,
+				A1B3CAFF282F836500C3D3AE /* CustomInputField.swift in Sources */,
 				A1B3CAE0282EB72400C3D3AE /* MVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +382,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1B3CAF5282F5F7B00C3D3AE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B3CAF6282F5F7B00C3D3AE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B3CAF5282F5F7B00C3D3AE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A1B3CAF8282F5F7B00C3D3AE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B3CAF5282F5F7B00C3D3AE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1B3CAD4282EB72400C3D3AE /* Project object */;
 }
