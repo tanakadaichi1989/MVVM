@@ -59,7 +59,7 @@ struct ContentView: View {
         }
         .alert("確認",isPresented: $showAlert){
             Button {
-                self.showAlert.toggle()
+                self.showAlert = false
             } label: {
                 Text("いいえ")
             }
