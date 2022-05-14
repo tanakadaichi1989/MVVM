@@ -16,16 +16,21 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack(alignment: .bottomTrailing ) {
-                ScrollView {
-                    if productViewModel.products.count > 0 {
-                        ProductsView(products: productViewModel.products)
-                            .padding()
-                            .frame(width: 300,alignment: .leading)
-                    } else {
+                if productViewModel.products.count > 0 {
+                    ScrollView {
+                    ProductsView(products: productViewModel.products)
+                        .padding()
+                        .frame(width: 300,alignment: .leading)
+                    }
+                } else {
+                    VStack(alignment: .center) {
+                        Spacer()
                         Text("商品を登録しましょう")
+                            .foregroundColor(.secondary)
+                            .frame(width: 300)
+                        Spacer()
                     }
                 }
-                .padding(20)
                 
                 Button {
                     showRegisterProductView.toggle()
