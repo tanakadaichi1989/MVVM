@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 @main
-struct MVVMApp: App {
+struct MVVMApp: SwiftUI.App {
+
+    @StateObject var viewModel = ProductViewModel()
+    
+    init(){
+        print("DEBUG: App launched ...")
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
